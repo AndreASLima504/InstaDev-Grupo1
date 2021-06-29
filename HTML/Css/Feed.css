@@ -4,14 +4,19 @@
     box-sizing: 0;
 }
 
+
 body {
     background-color: var(--fundo2);
 }
 
-.alinhamento_story {
+.section {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: baseline;
+}
+
+.feed {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .item_section {
@@ -20,7 +25,7 @@ body {
 
 .pessoas_logadas {
     height: 113px;
-    width: 72%;
+    /* width: 72%; */
     background-color: var(--fundo1);
     /* margin-top: 30px; */
     padding: 20px 20px;
@@ -47,7 +52,7 @@ body {
 
 .fonte_story {
     font-family: Segoe UI;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     color: var(--preto);
 }
@@ -79,7 +84,7 @@ body {
 }
 
 .Fazer_Postagem {
-    width: 70%;
+    /* width: 70%; */
     height: 165px;
     background-color: var(--fundo1);
     border: 1px solid #F1F1F1;
@@ -109,9 +114,24 @@ body {
     border: 1px solid #EAEAEA;
 }
 
+.label {
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #D1D1D1; 
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7D7D7D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .input_file {
     border-radius: 5px;
     background-color: var(--cinza); 
+    display: none;
 }
 
 .button_postar {
@@ -121,25 +141,19 @@ body {
     border-radius: 5px;
     background-color: var(--azul);
     font-family: Segoe UI;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--fundo1);
 }
 
 .Fazer_Publi {
-    width: 70%;
+    /* width: 70%; */
     background-color: var(--fundo1);
     border: 1px solid #F1F1F1;
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-.img_publi {
-    width: 36px;
-    height: 36px;
-    clip-path: circle(40%);
 }
 
 .fonte_publi {
@@ -155,15 +169,16 @@ body {
 }
 
 .icones {
-    width: 100%;
+    width: 37%;
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .like {
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
 }
 
 .plane {
