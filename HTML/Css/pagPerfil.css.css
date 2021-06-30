@@ -20,6 +20,10 @@ header {
   /* background-color: #000000; */
 }
 
+main {
+  background-color: var(--fundo2);
+}
+
 .container_header {
   width: 50%;
   height: 100%;
@@ -217,7 +221,8 @@ li {
   margin-left: 25%;
   margin-top: 2%;
   display: flex;
-  background-color: blueviolet;
+
+  /* background-color: blueviolet; */
 }
 
 .foto_post {
@@ -228,7 +233,8 @@ li {
 .comentarios {
   width: 50%;
   height: 404px;
-  background-color: dodgerblue;
+
+  /* background-color: dodgerblue; */
 }
 
 .imgPerfil_menor {
@@ -243,7 +249,8 @@ li {
   height: 133px;
   display: flex;
   align-items: center;
-  background-color: greenyellow;
+
+  /* background-color: greenyellow; */
 }
 
 .box_perfil_comentarios {
@@ -254,20 +261,18 @@ li {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background-color: orangered;
+  font-size: 14px;
+  font-family: 'Roboto';
+
+  /* background-color: orangered; */
 }
 
 .curtidas_coments {
   width: 100%;
   height: 84px;
-  background-color: purple;
-}
 
-/* .comentar {
-  width: 24px;
-  height: 24px;
-  margin-left: 3%;
-} */
+  /* background-color: purple; */
+}
 
 .curtir {
   margin-left: 9%;
@@ -282,30 +287,24 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  font-size: 14px;
+  font-family: 'Roboto';
+
+  /* background-color: red; */
 }
 
-.comentario {
-  margin-top: 2%;
-  margin-left: 5%;
-
-  background-color: crimson;
-}
-
-#coment{
-  width: 252px;
-  height: 32px;
-  border: 1px solid #DCDCDC;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-
-.curtidas_coments li{
+.curtidas_coments li {
   list-style-type: none;
 }
 
+.divDaAnny{
+  display: flex;
+ 
+  width: 100%;
+  /* background-color:darkslateblue; */
+}
 
-.coracao_coment{
+.coracao_coment {
   display: flex;
   margin-left: 6%;
   margin-bottom: 2%;
@@ -313,32 +312,90 @@ li {
   display: flex;
   width: 20%;
   height: 27%;
-  background-color: cyan;
+  /* background-color: cyan; */
 }
 
-.Comentarios_{
+.Comentarios_ {
   width: 100%;
   height: 31%;
-
   display: flex;
   flex-direction: column;
 
-  background-color: dimgray;
-}
-.VerComents{
-  margin-left: 5%;
+  /* background-color: dimgray; */
 }
 
-.ComentNegrito{
+.ComentNegrito {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
   color: #000000;
+  margin-left: 37%;
+
+  /* background-color: chartreuse; */
 }
 
-.conteudo_coments{
+.conteudo_coments {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3%;
+  /* background-color: brown; */
+}
+
+.conteudo_comenta {
   display: flex;
   
+  /* background-color: rgb(190, 86, 0); */
+}
+
+.coracaoDoComent {
+  width: 7%;
+  height: 3%;
+}
+
+.comentario {
+  margin-top: 4%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(44, 156, 0); */
+}
+
+.SpanComent{
+font-family: 'Roboto';
+font-size: 14px;
+}
+
+.conteudoDoComent{
+  margin-left: 5%;
+  /* background-color: darkblue; */
+}
+
+.ComentNegritoFausto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+
+  margin-left: 18px;
+
+  /* background-color: chartreuse; */
+}
+
+.VerComents {
+  margin-top: 21px;
+  font-family: 'Roboto';
+  color: #5e5e5e;
+  font-size: 15px;
+  /* margin-left: 30%; */
+}
+
+.coracao{
+  width: 24px; 
+  height: 21px;
+  margin-left: 6px;
 }
