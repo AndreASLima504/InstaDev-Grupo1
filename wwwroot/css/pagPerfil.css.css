@@ -201,7 +201,7 @@ li {
   width: 122px;
   height: 27px;
   margin-top: 15px;
-  margin-left: 36%;
+  /* margin-left: 36%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -220,7 +220,7 @@ li {
 .container_post {
   width: 57%;
   height: 404px;
-  margin-left: 25%;
+  /* margin-left: 25%; */
   margin-top: 2%;
   display: flex;
   background-color: var(--fundo1);
