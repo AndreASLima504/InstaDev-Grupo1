@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 1200px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -22,10 +22,11 @@ header {
 
 main {
   background-color: var(--fundo2);
+  margin: 50px 0px;
 }
 
 .container_header {
-  width: 50%;
+  width: 70%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -193,6 +194,7 @@ li {
   text-decoration: none;
   /* identical to box height */
   color: #2686CC;
+  font-family: 'Roboto';
 }
 
 .publicacoes {
@@ -216,11 +218,12 @@ li {
 }
 
 .container_post {
-  width: 49%;
+  width: 57%;
   height: 404px;
   margin-left: 25%;
   margin-top: 2%;
   display: flex;
+  background-color: var(--fundo1);
 
   /* background-color: blueviolet; */
 }
@@ -231,8 +234,9 @@ li {
 }
 
 .comentarios {
-  width: 50%;
+  /* width: 53%; */
   height: 404px;
+  margin-right: 15px;
 
   /* background-color: dodgerblue; */
 }
@@ -269,7 +273,7 @@ li {
 
 .curtidas_coments {
   width: 100%;
-  height: 84px;
+  /* height: 84px; */
 
   /* background-color: purple; */
 }
@@ -283,11 +287,11 @@ li {
   width: 25%;
   height: 10%;
   margin-top: 1%;
-  margin-left: 4%;
+  margin-left: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Roboto';
 
   /* background-color: red; */
