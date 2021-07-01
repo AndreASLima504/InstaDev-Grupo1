@@ -38,4 +38,47 @@ C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\ref\In
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.pdb
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Postagem\Index.cshtml.g.cs
+=======
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.Development.json
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.json
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.exe
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.deps.json
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.runtimeconfig.json
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.runtimeconfig.dev.json
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.dll
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\ref\InstaDev-Grupo1.dll
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.pdb
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.Views.dll
+D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.Views.pdb
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csprojAssemblyReference.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.AssemblyInfoInputs.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.AssemblyInfo.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CoreCompileInputs.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.MvcApplicationPartsAssemblyInfo.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.RazorAssemblyInfo.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.RazorAssemblyInfo.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\staticwebassets\InstaDev-Grupo1.StaticWebAssets.Manifest.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\staticwebassets\InstaDev-Grupo1.StaticWebAssets.xml
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\scopedcss\bundle\InstaDev-Grupo1.styles.css
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.TagHelpers.input.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.TagHelpers.output.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.RazorCoreGenerate.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.RazorTargetAssemblyInfo.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.RazorTargetAssemblyInfo.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.Views.pdb
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.dll
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\ref\InstaDev-Grupo1.dll
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.pdb
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
+>>>>>>> 05c94bec1a754c716d577e046331848a3d6944b8
