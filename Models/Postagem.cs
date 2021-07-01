@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.IO;
 using InstaDev_Grupo1.Interfaces;
 
 namespace InstaDev_Grupo1.Models
@@ -13,7 +15,7 @@ namespace InstaDev_Grupo1.Models
 
         public string Imagem { get; set; }
 
-        public List<Comentario> ListaComentario;
+        
 
         private const string CAMINHO = "DataBase/Postagem.csv";
 
@@ -22,15 +24,37 @@ namespace InstaDev_Grupo1.Models
             CriarPastaArquivo(CAMINHO);
         }
 
-
-        public void Cadastrar()
+         private string Preparar(Postagem p)
         {
-            throw new System.NotImplementedException();
+            return $"{p.IdPostagem};{p.IdUsuario};{p.Conteudo}; {p.Imagem}";
+        }
+
+        public void Cadastrar(Postagem p)
+        {
+            string[] linha = {Preparar(p)};
+            File.AppendAllLines(CAMINHO, linha);
         }
 
         public List<Postagem> ListarPosts()
         {
-            throw new System.NotImplementedException();
+           List<Postagem> ListaPostagens= new List<Postagem>();
+            string[] linhas = File.ReadAllLines(CAMINHO);
+
+            foreach (var item in linhas)
+            {
+                string[] CadaLinha = item.Split(";");
+                Postagem post = new Postagem();
+
+                post.IdPostagem = Int32.Parse(CadaLinha[0]);
+                post.IdUsuario = Int32.Parse(CadaLinha[1]);
+                post.Conteudo = CadaLinha[2];
+                post.Imagem = CadaLinha[3];
+
+                ListaPostagens.Add(post);
+            }
+
+            return ListaPostagens;
         }
+
     }
 }

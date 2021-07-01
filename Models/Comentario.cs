@@ -13,6 +13,8 @@ namespace InstaDev_Grupo1.Models
 
         public string Conteudo { get; set; }
 
+        public List<Comentario> ListaComentario;
+
         public void CadastrarComentario(int IdPostagem, int Idusuario)
         {
             throw new System.NotImplementedException();

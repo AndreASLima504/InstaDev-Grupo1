@@ -5,7 +5,7 @@ namespace InstaDev_Grupo1.Interfaces
 {
     public interface IPostagem
     {
-         void Cadastrar();
+         void Cadastrar(Postagem p);
 
          List<Postagem> ListarPosts();
 

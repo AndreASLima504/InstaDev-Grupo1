@@ -1,0 +1,21 @@
+@model Postagem
+@{
+    ViewData["Title"] = "Postagem";
+}
+
+<form method="POST" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+
+    <div class="Fazer_Postagem item_section">
+        <div class="usuario">
+            @* foto do usuario *@
+            <img class="img_postar" src="Imagens/HomemdeFerro.jpg" alt="">
+            <span class="fonte_usuario">Postar</span>
+        </div>
+        <div class="inputs">
+            <input class="input_text" type="text" placeholder=" Digite a descrição da publicação" name="Conteudo">
+            <label class="label" for="file">Escolha uma imagem</label>
+            <input class="input_file" type="file" id="file" name="Imagem">
+            <button class="button_postar">Postar</button>
+        </div>
+    </div>
+</form>

@@ -38,3 +38,4 @@ C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\ref\In
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.pdb
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
+C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Postagem\Index.cshtml.g.cs
