@@ -15,5 +15,7 @@ namespace InstaDev_Grupo1.Interfaces
 
         List<Usuario> MostrarDados();
 
+        List<Usuario> ListarUsuarios();
+
     }
 }

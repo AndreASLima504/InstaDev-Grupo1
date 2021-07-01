@@ -42,5 +42,10 @@ namespace InstaDev_Grupo1.Models
         {
             throw new System.NotImplementedException();
         }
+
+        public List<Usuario> ListarUsuarios()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

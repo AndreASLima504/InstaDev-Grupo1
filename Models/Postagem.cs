@@ -3,7 +3,7 @@ using InstaDev_Grupo1.Interfaces;
 
 namespace InstaDev_Grupo1.Models
 {
-    public class Postagem : IPostagem
+    public class Postagem : BaseInstaDev, IPostagem
     {
         public int IdPostagem { get; set; }
 
@@ -15,22 +15,20 @@ namespace InstaDev_Grupo1.Models
 
         public List<Comentario> ListaComentario;
 
+        private const string CAMINHO = "DataBase/Postagem.csv";
+
+        public Postagem()
+        {
+            CriarPastaArquivo(CAMINHO);
+        }
+
+
         public void Cadastrar()
         {
             throw new System.NotImplementedException();
         }
 
         public List<Postagem> ListarPosts()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void LinkPerfil()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public List<Usuario> ListarUsuarios()
         {
             throw new System.NotImplementedException();
         }
