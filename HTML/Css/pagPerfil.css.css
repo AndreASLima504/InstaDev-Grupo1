@@ -206,7 +206,7 @@ li {
 }
 
 .publicacoes span {
-  font-style: normal;
+  font-style: 'Roboto';
   font-weight: normal;
   text-transform: uppercase;
   font-size: 14px;
