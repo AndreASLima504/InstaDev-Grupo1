@@ -9,8 +9,5 @@ namespace InstaDev_Grupo1.Interfaces
 
          List<Postagem> ListarPosts();
 
-         void LinkPerfil();
-
-         List<Usuario> ListarUsuarios();
     }
 }
