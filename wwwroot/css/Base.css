@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #000000;
+    --cinza: #909090;
+    --azul:#2686CC;
+    --fundo1: #FFFFFF;
+    --fundo2: #FAFAFA;
+}
+
+  .containerHEADER {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 53px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: var(--fundo1);
+  }
+  
+  .container_header {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 280px; */
+    /* background-color: darkcyan; */
+  }
+  
+  .logo_site {
+    width: 90px;
+    height: 53px;
+    /* background-color: darkmagenta; */
+  }
+  
+  .divBusca {
+    width: 215px;
+    height: 28px;
+    margin-left: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: solid 2px black;
+  }
+  
+  #txtBusca {
+    background: url(../../Imagens/search.png) no-repeat scroll 32% 53% #FAFAFA;
+    padding-left: 81px;
+    width: 215px;
+    height: 28px;
+    left: 852px;
+    top: 12px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 80px;
+  }
+  
+  .divSearch img {
+    float: left;
+  }
+  
+  .menu_header {
+    width: 217px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: purple; */
+  }
+  
+  li:hover {
+    color: grey;
+    scale: 1.1;
+    transition: all .2s ease-in-out
+  }
+  
+  li {
+    font-size: 22px;
+  }
+  
+  .menu_header li {
+    list-style-type: none;
+  }
+  
+  .FotoPerfil img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .FirstLine {
+    margin-top: 53px;
+  }
+  
+.letter {
+    Font-family: Segoe UI;
+}
+    
+.grid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    height: 82px;
+    background-color: var(--cinza);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Font-size: 16px;
+    color: var(--fundo2);
+}
