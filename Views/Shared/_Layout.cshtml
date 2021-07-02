@@ -2,6 +2,11 @@
 <html lang="pt-br">
 
 <head>
+    @if (ViewData["Title"].ToString() == "PagPerfil")
+    {
+        <link rel="stylesheet" href="~/css/" />
+        <link rel="stylesheet" href="~/css/pagPerfil.css" />
+    }
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +14,7 @@
     <link rel="stylesheet" href="~/css/Base.css">
     <link rel="stylesheet" href="~/css/EdicaoPerfil.css.css">
     <link rel=" stylesheet" href="~/css/Feed.css">
-    <link rel=" stylesheet" href="~/css/pagPerfil.css.css">
+    <link rel=" stylesheet" href="~/css/pagPerfil.css">
     <link rel=" stylesheet" href="~/css/Paginas_Cadastro_e_Login.css">
     <script src="https://kit.fontawesome.com/8072771ef9.js" crossorigin="anonymous"></script>
 </head>
