@@ -14,7 +14,10 @@
     <script src="https://kit.fontawesome.com/8072771ef9.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+
+@if (ViewData["Title"].ToString() == "Postagem" )
+{
+    
     <header>
         <div class="containerHEADER container_header">
             <img class="logo_site" src="../Imagens/Instadev.svg">
@@ -31,15 +34,20 @@
 
         </div>
     </header>
+    
+    <footer class="footer grid letter">
+        <span>Copyright © 2021 - Escola Senai de Informática</span>
+    </footer>
+}
+
+
+<body>
     <div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="footer grid letter">
-        <span>Copyright © 2021 - Escola Senai de Informática</span>
-    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

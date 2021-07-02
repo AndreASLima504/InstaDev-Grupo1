@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
+using System.IO;
 using InstaDev_Grupo1.Interfaces;
 
 namespace InstaDev_Grupo1.Models
 {
-    public class Comentario : IComentario
+    public class Comentario : BaseInstaDev, IComentario
     {
         public int IdComentario { get; set; }
 
@@ -15,19 +17,52 @@ namespace InstaDev_Grupo1.Models
 
         public List<Comentario> ListaComentario;
 
-        public void CadastrarComentario(int IdPostagem, int Idusuario)
+        private const string CAMINHO = "DataBase/Comentario.csv";
+
+
+
+        public Comentario()
         {
-            throw new System.NotImplementedException();
+            CriarPastaArquivo(CAMINHO);
         }
 
-        public void DeletarComentario(int IdPostagem, int Idusuario)
+        private string Preparar(Comentario c)
         {
-            throw new System.NotImplementedException();
+            return $"{c.IdComentario}; {c.IdUsuario}; {c.IdPostagem}; {c.Conteudo}; ";
+        }
+
+
+        public void CadastrarComentario(Comentario c)
+        {
+            string[] linha = { Preparar(c) };
+            File.AppendAllLines(CAMINHO, linha);
         }
 
         public List<Comentario> ListarComentarios()
         {
-            throw new System.NotImplementedException();
+            List<Comentario> ListaComentarios = new List<Comentario>();
+            string[] linhas = File.ReadAllLines(CAMINHO);
+
+            foreach (var item in linhas)
+            {
+                string[] CadaLinha = item.Split(";");
+                Comentario coment = new Comentario();
+
+                coment.IdComentario = Int32.Parse(CadaLinha[0]);
+                coment.IdUsuario = Int32.Parse(CadaLinha[1]);
+                coment.IdPostagem = Int32.Parse(CadaLinha[2]);
+                coment.Conteudo = CadaLinha[3];
+
+                ListaComentarios.Add(coment);
+            }
+
+            return ListaComentarios;
+        
+        }
+
+        public void DeletarComentario(Comentario c)
+        {
+            throw new NotImplementedException();
         }
     }
-}
+    }
