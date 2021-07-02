@@ -14,7 +14,8 @@ namespace InstaDev_Grupo1.Controllers
         [Route("Listar")]
         public IActionResult Index()
         {
-           ViewBag.Usuarios = usuarioModel.ListarUsuarios();
+            ViewBag.UserName = HttpContext.Session.GetString("_UserName");
+            ViewBag.Usuarios = usuarioModel.MostrarDados (int.Parse(HttpContext.Session.GetString("_UserId")));
             return View();
         }
 
