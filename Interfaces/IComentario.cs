@@ -5,9 +5,9 @@ namespace InstaDev_Grupo1.Interfaces
 {
     public interface IComentario
     {
-         void CadastrarComentario(int IdPostagem, int Idusuario);
+         void CadastrarComentario(Comentario c);
 
-         void DeletarComentario(int IdPostagem, int Idusuario);
+         void DeletarComentario(Comentario c);
 
         List<Comentario> ListarComentarios();
     }

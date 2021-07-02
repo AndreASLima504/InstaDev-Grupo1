@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using InstaDev_Grupo1.Models;
 using Microsoft.AspNetCore.Http;
@@ -21,10 +22,27 @@ namespace InstaDev_Grupo1.Controllers
         [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
         {
-            Random Id = new Random();
 
             Postagem NovaPostagem = new Postagem();
-            NovaPostagem.IdPostagem = Id.Next(500000);
+            Postagem PostagemEncontrada = new Postagem();
+
+            do
+            {
+                Random Id = new Random();
+                List<Postagem> ListaPostagem = PostagemModel.ListarPosts();
+                int IdNew = Id.Next(500000);
+
+
+                PostagemEncontrada = ListaPostagem.Find(item => item.IdPostagem == IdNew);
+
+                if (PostagemEncontrada == null)
+                {
+                    NovaPostagem.IdPostagem = IdNew;
+                }
+
+            } while (PostagemEncontrada != null);
+
+
             // id Usuario
             // NovaPostagem.IdUsuario = ;
             NovaPostagem.Conteudo = form["Conteudo"];
