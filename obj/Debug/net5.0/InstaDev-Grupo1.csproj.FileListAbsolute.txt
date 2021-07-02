@@ -83,3 +83,4 @@ D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.
 D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
 >>>>>>> 05c94bec1a754c716d577e046331848a3d6944b8
 D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Postagem\Index.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Login\index.cshtml.g.cs

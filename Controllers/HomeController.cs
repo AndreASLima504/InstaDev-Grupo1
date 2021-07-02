@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace InstaDev_Grupo1.Controllers
@@ -14,6 +15,7 @@ namespace InstaDev_Grupo1.Controllers
 
         public IActionResult Index()
         {
+            // ViewBag.UserName = HttpContext.Session.GetString("_UserName");
             return View();
         }
 

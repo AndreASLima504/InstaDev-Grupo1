@@ -7,13 +7,11 @@ namespace InstaDev_Grupo1.Interfaces
     {
         void Cadastrar(Usuario u);
 
-        void Logar(Usuario u);
-
         void Alterar(Usuario u);
 
         void Deletar(Usuario u);
 
-        List<Usuario> MostrarDados();
+        Usuario MostrarDados(int IdUsuario);
 
         List<Usuario> ListarUsuarios();
 

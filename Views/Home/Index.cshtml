@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@* <main class="pagLogin">
+@* @* <main class="pagLogin">
     <div class="container">
         <section class="bloco_principal">
             <div class="Logo">
@@ -35,7 +35,8 @@
     </div>
 </main> *@
 
-<main>
+@* <main>
+
         <section class="grid section">
             <div class="feed">
                 <div>
@@ -130,4 +131,38 @@
 
         </section>
 
+    </main> *@ 
+
+     <main>
+        <div class="container">
+            <section class="bloco_principal">
+                <div class="Logo">
+                    <img class="LogoInstadev" src="Imagens/Instadev.png" alt="LogoInstadev">
+                    <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
+                </div>
+                <form method="POST" action='Url.Action("Cadastrar")'class="informacoes">
+                    
+                    <input name="Nome" type="text" placeholder="Nome completo">
+                    <input name="Username" type="text" placeholder="Nome de usuário">
+                    <input name="Email" type="text" placeholder="Email">
+                    <input name="Senha" type="password" placeholder="Senha">
+                    <button type="submit">Cadastrar</button>
+                </form>
+                <span class="CoisoJurisdico">Ao se cadastrar, você concorda com nossos Termos, Política de Dados e
+                    Política de Cookies. </span>
+            </section>
+            <section class="logar"><span>Tem uma conta? <a class="conectar" href="">Conecte-se</a></span></section>
+             <a asp-area="" asp-controller="Login" asp-action="Index"></a>
+
+            <section class="obtenha">
+                <span>Obtenha o aplicativo.</span>
+                <div class="Baixar">
+                    <img src="Imagens/app_store 1.png" alt="ImagemAppStore">
+                    <img src="Imagens/google_play 1.png" alt="GooglePlay">
+                </div>
+            </section>
+        </div>
     </main>
+
+
+

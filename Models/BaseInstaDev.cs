@@ -21,7 +21,7 @@ namespace InstaDev_Grupo1.Models
             }
         }
 
-        public List<string> LerLinhasArquivo(string caminho)
+        public List<string> LerTodasLinhasCSV(string caminho)
         {
             List<string> Listalinhas = new List<string>();
             using (StreamReader file = new StreamReader(caminho))
@@ -36,7 +36,7 @@ namespace InstaDev_Grupo1.Models
             return Listalinhas;
         }
 
-        public void Reescrever(string caminho, List<string> linhas)
+        public void ReescreverCSV(string caminho, List<string> linhas)
         {
             using (StreamWriter output = new StreamWriter(caminho))
             {
