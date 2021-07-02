@@ -15,7 +15,7 @@ namespace InstaDev_Grupo1.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.UserName = HttpContext.Session.GetString("_UserName");
+            // ViewBag.UserName = HttpContext.Session.GetString("_UserName");
             return View();
         }
 

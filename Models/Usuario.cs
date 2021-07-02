@@ -27,7 +27,7 @@ namespace InstaDev_Grupo1.Models
 
         private string PrepararLinha(Usuario u)
         {
-            return $"{u.IdUsuario};{u.Nome};{u.Email};{u.Senha}";
+            return $"{u.IdUsuario};{u.Nome};{u.UserName};{u.Email};{u.Senha}";
         }
         public void Cadastrar(Usuario u)
         {
@@ -53,14 +53,15 @@ namespace InstaDev_Grupo1.Models
             {
 
                 string[] linha = item.Split(";");
-                Usuario usuario = new Usuario();
+                Usuario novousuario = new Usuario();
 
-                usuario.IdUsuario = Int32.Parse(linha[0]);
-                usuario.Nome = linha[1];
-                usuario.Email = linha[2];
-                usuario.Senha = linha[3];
+                novousuario.IdUsuario = Int32.Parse(linha[0]);
+                novousuario.Nome = linha[1];
+                novousuario.UserName = linha[2];
+                novousuario.Email = linha[3];
+                novousuario.Senha = linha[4];
 
-                usuarios.Add(usuario);
+                usuarios.Add(novousuario);
             }
             return usuarios;
         }

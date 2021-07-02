@@ -9,7 +9,6 @@ namespace InstaDev_Grupo1.Controllers
     public class UsuarioController : Controller
     {
 
-
         Usuario usuarioModel = new Usuario();
 
         [Route("Listar")]
