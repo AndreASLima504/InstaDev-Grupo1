@@ -39,7 +39,6 @@ C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaD
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
 <<<<<<< HEAD
-C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Postagem\Index.cshtml.g.cs
 =======
 D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.Development.json
 D:\Senai\Programação em HTML\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.json
@@ -85,3 +84,5 @@ D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.
 D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Postagem\Index.cshtml.g.cs
 D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Login\index.cshtml.g.cs
 D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Feed\Index.cshtml.g.cs
+C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Feed\Index.cshtml.g.cs
+C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Login\index.cshtml.g.cs

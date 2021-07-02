@@ -1,4 +1,4 @@
-@model Postagem
+@model Usuario
 @{
     ViewData["Title"] = "Feed";
 }
@@ -11,7 +11,7 @@
                     <div class="pessoas_logadas item_section">
                         <div class="perfil_logado">
                             <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
+                            <span class="fonte_story">@ViewBag.Usuarios.Usuario.UserName</span>
                         </div>
                         <div class="perfil_logado">
                             <img class="img_story" src="Imagens/Pelé.jpg" alt="">
