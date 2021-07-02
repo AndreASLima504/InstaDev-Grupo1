@@ -3,28 +3,159 @@
 }
 @* @* <main class="pagLogin">
     <div class="container">
+    <section class="bloco_principal">
+    <div class="Logo">
+    <img class="LogoInstadev" src="Imagens/Instadev.png" alt="LogoInstadev">
+    <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
+    </div>
+    <form class="informacoes">
+    <input type="text" placeholder=" Email">
+    <input type="text" placeholder=" Senha">
+    <button class="botao_logar" type="submit">Entrar</button>
+    </form>
+    <div class="ou">
+    <div>
+    <hr>
+    </div><span>OU</span>
+    <div>
+    <hr>
+    </div>
+    </div>
+    <a href="">Esqueceu a senha?</a>
+
+    </section>
+    <section class="logar"><span>Não tem uma conta? <a class="conectar" href="">Cadastre-se</a></span></section>
+    <section class="obtenha">
+    <span>Obtenha o aplicativo.</span>
+    <div class="Baixar">
+    <img src="Imagens/app_store 1.png" alt="ImagemAppStore">
+    <img src="Imagens/google_play 1.png" alt="GooglePlay">
+    </div>
+    </section>
+    </div>
+    </main> *@
+
+@* <main>
+
+    <section class="grid section">
+    <div class="feed">
+    <div>
+    <!-- storys -->
+    <div class="pessoas_logadas item_section">
+    <div class="perfil_logado">
+    <img class="img_story" src="Imagens/Pelé.jpg" alt="">
+    <span class="fonte_story">Nome_Pelé</span>
+    </div>
+    <div class="perfil_logado">
+    <img class="img_story" src="Imagens/Pelé.jpg" alt="">
+    <span class="fonte_story">Nome_Pelé</span>
+    </div>
+    <div class="perfil_logado">
+    <img class="img_story" src="Imagens/Pelé.jpg" alt="">
+    <span class="fonte_story">Nome_Pelé</span>
+    </div>
+    <div class="perfil_logado">
+    <img class="img_story" src="Imagens/Pelé.jpg" alt="">
+    <span class="fonte_story">Nome_Pelé</span>
+    </div>
+    <div class="perfil_logado">
+    <img class="img_story" src="Imagens/Pelé.jpg" alt="">
+    <span class="fonte_story">Nome_Pelé</span>
+    </div>
+    <div class="perfil_logado">
+    <img class="img_story" src="Imagens/Pelé.jpg" alt="">
+    <span class="fonte_story">Nome_Pelé</span>
+    </div>
+    <div class="perfil_logado">
+    <img class="img_story" src="Imagens/Pelé.jpg" alt="">
+    <span class="fonte_story">Nome_Pelé</span>
+    </div>
+    </div>
+    </div>
+
+    <!-- postagem -->
+    <div class="Fazer_Postagem item_section">
+    <div class="usuario">
+    <img class="img_postar" src="Imagens/HomemdeFerro.jpg" alt="">
+    <span class="fonte_usuario">Postar</span>
+    </div>
+    <div class="inputs">
+    <input class="input_text" type="text" placeholder=" Digite a descrição da publicação">
+    <label class="label" for="file">Escolha uma imagem</label>
+    <input class="input_file" type="file" id="file">
+    <button class="button_postar">Postar</button>
+    </div>
+
+    </div>
+
+
+    <!-- publicações -->
+    <div class="Fazer_Publi item_section">
+    <div class="usuario">
+    <img class="img_postar" src="Imagens/HomemdeFerro.jpg" alt="">
+    <span class="fonte_usuario">Homem_Ferro</span>
+    </div>
+    <div>
+    <img class="img_publicada" src="Imagens/yes_baby.png" alt="">
+    <div class="icones">
+    <img class="like" src="Imagens/like.png.png" alt="">
+    <img class="plane" src="Imagens/plane.png" alt="">
+    <input class="input_text" type="text" placeholder=" Digite um comentário">
+    </div>
+    <div class="conteudo_publicacoes publi">
+    <span class="fonte_publi">Homem_Ferro</span>
+    <p class="descricao_publi">Sou fã!</p>
+    </div>
+
+    <!-- comentarios -->
+    <div class="conteudo_publicacoes">
+    <span class="fonte_publi">Gabigol</span>
+    <p class="descricao_publi">Zika da favela!</p>
+    </div>
+    <div class="conteudo_publicacoes">
+    <span class="fonte_publi">Zezinho</span>
+    <p class="descricao_publi">Thank you!</p>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- usuario -->
+    <div class="usuario item_section">
+    <img class="img_story" src="Imagens/HomemdeFerro.jpg" alt="">
+    <div class="conteudo">
+    <span class="fonte_usuario">Homem_Ferro</span>
+    <span class="fonte_status">Armadura</span>
+    </div>
+    </div>
+
+    </section>
+
+    </main> *@
+
+<main>
+    <div class="container">
         <section class="bloco_principal">
             <div class="Logo">
                 <img class="LogoInstadev" src="Imagens/Instadev.png" alt="LogoInstadev">
                 <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
             </div>
-            <form class="informacoes">
-                <input type="text" placeholder="  Email">
-                <input type="text" placeholder="  Senha">
-                <button class="botao_logar" type="submit">Entrar</button>
+            <form method="POST" action='Url.Action("Listar")' class="informacoes">
+
+                <input name="Nome" type="text" placeholder="Nome completo">
+                <input name="Username" type="text" placeholder="Nome de usuário">
+                <input name="Email" type="text" placeholder="Email">
+                <input name="Senha" type="password" placeholder="Senha">
+                <button type="submit">Cadastrar</button>
             </form>
-            <div class="ou">
-                <div>
-                    <hr>
-                </div><span>OU</span>
-                <div>
-                    <hr>
-                </div>
-            </div>
-            <a href="">Esqueceu a senha?</a>
+
+            <span class="CoisoJurisdico">Ao se cadastrar, você concorda com nossos Termos, Política de Dados e
+                Política de Cookies. </span>
 
         </section>
-        <section class="logar"><span>Não tem uma conta? <a class="conectar" href="">Cadastre-se</a></span></section>
+        <section class="logar"><span>Tem uma conta? <a class="conectar" asp-area="" asp-controller="Login" asp-action="Index">Conecte-se</a></span></section>
+        @* <a asp-area="" asp-controller="Login" asp-action="Index"></a> *@
+
         <section class="obtenha">
             <span>Obtenha o aplicativo.</span>
             <div class="Baixar">
@@ -33,136 +164,4 @@
             </div>
         </section>
     </div>
-</main> *@
-
-@* <main>
-
-        <section class="grid section">
-            <div class="feed">
-                <div>
-                    <!-- storys -->
-                    <div class="pessoas_logadas item_section">
-                        <div class="perfil_logado">
-                            <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                            <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                            <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                            <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                            <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                            <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                            <img class="img_story" src="Imagens/Pelé.jpg" alt="">
-                            <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- postagem -->
-                <div class="Fazer_Postagem item_section">
-                    <div class="usuario">
-                        <img class="img_postar" src="Imagens/HomemdeFerro.jpg" alt="">
-                        <span class="fonte_usuario">Postar</span>
-                    </div>
-                    <div class="inputs">
-                        <input class="input_text" type="text" placeholder=" Digite a descrição da publicação">
-                        <label class="label" for="file">Escolha uma imagem</label>
-                        <input class="input_file" type="file" id="file">
-                        <button class="button_postar">Postar</button>
-                    </div>
-
-                </div>
-
-
-                <!-- publicações -->
-                <div class="Fazer_Publi item_section">
-                    <div class="usuario">
-                        <img class="img_postar" src="Imagens/HomemdeFerro.jpg" alt="">
-                        <span class="fonte_usuario">Homem_Ferro</span>
-                    </div>
-                    <div>
-                        <img class="img_publicada" src="Imagens/yes_baby.png" alt="">
-                        <div class="icones">
-                            <img class="like" src="Imagens/like.png.png" alt="">
-                            <img class="plane" src="Imagens/plane.png" alt="">
-                            <input class="input_text" type="text" placeholder=" Digite um comentário">
-                        </div>
-                        <div class="conteudo_publicacoes publi">
-                            <span class="fonte_publi">Homem_Ferro</span>
-                            <p class="descricao_publi">Sou fã!</p>
-                        </div>
-
-                        <!-- comentarios -->
-                        <div class="conteudo_publicacoes">
-                            <span class="fonte_publi">Gabigol</span>
-                            <p class="descricao_publi">Zika da favela!</p>
-                        </div>
-                        <div class="conteudo_publicacoes">
-                            <span class="fonte_publi">Zezinho</span>
-                            <p class="descricao_publi">Thank you!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- usuario -->
-            <div class="usuario item_section">
-                <img class="img_story" src="Imagens/HomemdeFerro.jpg" alt="">
-                <div class="conteudo">
-                    <span class="fonte_usuario">Homem_Ferro</span>
-                    <span class="fonte_status">Armadura</span>
-                </div>
-            </div>
-
-        </section>
-
-    </main> *@ 
-
-     <main>
-        <div class="container">
-            <section class="bloco_principal">
-                <div class="Logo">
-                    <img class="LogoInstadev" src="Imagens/Instadev.png" alt="LogoInstadev">
-                    <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
-                </div>
-                <form method="POST" action='Url.Action("Cadastrar")'class="informacoes">
-                    
-                    <input name="Nome" type="text" placeholder="Nome completo">
-                    <input name="Username" type="text" placeholder="Nome de usuário">
-                    <input name="Email" type="text" placeholder="Email">
-                    <input name="Senha" type="password" placeholder="Senha">
-                    <button type="submit">Cadastrar</button>
-                </form>
-                <span class="CoisoJurisdico">Ao se cadastrar, você concorda com nossos Termos, Política de Dados e
-                    Política de Cookies. </span>
-            </section>
-            <section class="logar"><span>Tem uma conta? <a class="conectar" href="">Conecte-se</a></span></section>
-             <a asp-area="" asp-controller="Login" asp-action="Index"></a>
-
-            <section class="obtenha">
-                <span>Obtenha o aplicativo.</span>
-                <div class="Baixar">
-                    <img src="Imagens/app_store 1.png" alt="ImagemAppStore">
-                    <img src="Imagens/google_play 1.png" alt="GooglePlay">
-                </div>
-            </section>
-        </div>
-    </main>
-
-
-
+</main>
