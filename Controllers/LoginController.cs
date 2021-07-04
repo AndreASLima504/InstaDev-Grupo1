@@ -33,7 +33,7 @@ namespace InstaDev_Grupo1.Controllers
             {
                 HttpContext.Session.SetString("_UserName", logado.Split(";")[2]);
                 HttpContext.Session.SetString("_UserId", logado.Split(";")[0]);
-                return LocalRedirect("~/Feed");
+                return LocalRedirect("~/Feed/Listar");
             }
             Mensagem = "Dados incorretos, tente novamente...";
             return LocalRedirect("~/Login");

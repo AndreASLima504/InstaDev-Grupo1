@@ -140,13 +140,13 @@
                 <img class="LogoInstadev" src="Imagens/Instadev.png" alt="LogoInstadev">
                 <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
             </div>
-            <form method="POST" action='Url.Action("Listar")' class="informacoes">
+            <form method="POST" action='@Url.Action("Cadastrar")' class="informacoes">
 
-                <input name="Nome" type="text" placeholder="  Nome completo">
-                <input name="Username" type="text" placeholder="  Nome de usuário">
-                <input name="Email" type="text" placeholder="  Email">
-                <input name="Senha" type="password" placeholder="  Senha">
-                <button type="submit">Cadastrar</button>
+                <input name="Nome" type="text" placeholder="  Nome completo" name="Nome">
+                <input name="Username" type="text" placeholder="  Nome de usuário" name="Username">
+                <input name="Email" type="text" placeholder="  Email" name="Email">
+                <input name="Senha" type="password" placeholder="  Senha" name="Senha">
+                <button asp-area="" asp-controller="Login" asp-action="Index" type="submit">Cadastrar</button>
             </form>
 
             <span class="CoisoJurisdico">Ao se cadastrar, você concorda com nossos Termos, Política de Dados e
