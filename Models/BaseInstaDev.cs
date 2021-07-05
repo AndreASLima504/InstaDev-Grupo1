@@ -5,7 +5,7 @@ namespace InstaDev_Grupo1.Models
 {
     public class BaseInstaDev
     {
-        public void CriarPastaArquivo(string caminho)
+        public void CriarPastaEArquivo(string caminho)
         {
             string pasta = caminho.Split("/")[0];
             string arquivo = caminho.Split("/")[1];

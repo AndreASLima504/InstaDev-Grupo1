@@ -29,19 +29,11 @@ namespace InstaDev_Grupo1.Models
         {
             return $"{u.IdUsuario};{u.Nome};{u.UserName};{u.Email};{u.Senha}";
         }
+
         public void Cadastrar(Usuario u)
         {
             string[] linha = { PrepararLinha(u) };
             File.AppendAllLines(CAMINHO, linha);
-        }
-
-        public void Alterar(Usuario u)
-        {
-            List<string> linhas = LerTodasLinhasCSV(CAMINHO);
-            linhas.RemoveAll(x => x.Split(";")[0] == u.IdUsuario.ToString());
-
-            linhas.Add(PrepararLinha(u));
-            ReescreverCSV(CAMINHO, linhas);
         }
 
         public List<Usuario> ListarUsuarios()
@@ -65,6 +57,15 @@ namespace InstaDev_Grupo1.Models
             }
             return usuarios;
         }
+        public void Alterar(Usuario u)
+        {
+            List<string> linhas = LerTodasLinhasCSV(CAMINHO);
+            linhas.RemoveAll(x => x.Split(";")[0] == u.IdUsuario.ToString());
+
+            linhas.Add(PrepararLinha(u));
+            ReescreverCSV(CAMINHO, linhas);
+        }
+
 
         public void Deletar(Usuario u)
         {
