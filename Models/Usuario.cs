@@ -22,7 +22,7 @@ namespace InstaDev_Grupo1.Models
         private const string CAMINHO = "Database/usuario.csv";
         public Usuario()
         {
-            CriarPastaArquivo(CAMINHO);
+            CriarPastaEArquivo(CAMINHO);
         }
 
         private string PrepararLinha(Usuario u)
