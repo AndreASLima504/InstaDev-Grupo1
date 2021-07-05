@@ -45,14 +45,12 @@ namespace InstaDev_Grupo1.Controllers
 
             novoUsuario.IdUsuario = Int32.Parse(form["IdUsuario"]);
 
-            List<string> UsuarioCSV = usuarioModel.LerTodasLinhasCSV("Database/usuario.csv");
             novoUsuario.Nome = form["Nome"];
             novoUsuario.UserName = form["Username"];
             novoUsuario.Email = form["Email"];
             novoUsuario.Senha = form["Senha"];
 
             usuarioModel.Cadastrar(novoUsuario);
-            ViewBag.Usuarios = usuarioModel.ListarUsuarios();
 
             return LocalRedirect("~/Feed/Listar");
         }
