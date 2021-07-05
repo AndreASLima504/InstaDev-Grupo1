@@ -23,7 +23,7 @@ namespace InstaDev_Grupo1.Models
 
         public Comentario()
         {
-            CriarPastaArquivo(CAMINHO);
+            CriarPastaEArquivo(CAMINHO);
         }
 
         private string Preparar(Comentario c)

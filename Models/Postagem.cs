@@ -21,7 +21,7 @@ namespace InstaDev_Grupo1.Models
 
         public Postagem()
         {
-            CriarPastaArquivo(CAMINHO);
+            CriarPastaEArquivo(CAMINHO);
         }
 
          private string Preparar(Postagem p)
