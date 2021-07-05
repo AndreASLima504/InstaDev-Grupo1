@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "btUP5coAzh98OH2XGgnzWO2REgOoJd+Pz5bisSspzgqQfYMmubtbHi4nboyYdJhhZUgMy13Dk2qcXS6cQz9dng==",
   "success": true,
   "projectFilePath": "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
+=======
+  "dgSpecHash": "jJrbeYtCK1nJniV9DuqCga5qnUPxcYNxqmkKklDAnDjyFZVpT/K7+qiZxVZm1NUY0BekTAuO1QOyFnj6eDPl7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\Documents\\SENAU\\InstaDev\\InstaDev-Grupo1.csproj",
+>>>>>>> 9ef2ff2ba654a8fa4b07f3a4c1eeb90a9bfbd321
   "expectedPackageFiles": [],
   "logs": []
 }

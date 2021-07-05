@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elilt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\Users\\andre\\Documents\\SENAU\\InstaDev\\InstaDev-Grupo1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andre\\Documents\\SENAU\\InstaDev\\InstaDev-Grupo1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Documents\\SENAU\\InstaDev\\InstaDev-Grupo1.csproj",
+        "projectName": "InstaDev-Grupo1",
+        "projectPath": "C:\\Users\\andre\\Documents\\SENAU\\InstaDev\\InstaDev-Grupo1.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\Documents\\SENAU\\InstaDev\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 9ef2ff2ba654a8fa4b07f3a4c1eeb90a9bfbd321
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -55,7 +72,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> 9ef2ff2ba654a8fa4b07f3a4c1eeb90a9bfbd321
         }
       }
     }

@@ -9,9 +9,9 @@
                     <img class="LogoInstadev" src="Imagens/Instadev.png" alt="LogoInstadev">
                     <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
                 </div>
-                <form class="informacoes">
-                    <input type="text" placeholder="  Email">
-                    <input type="text" placeholder="  Senha">
+                <form method="POST" action='@Url.Action("Logar")' class="informacoes">
+                    <input name="Email" type="text" placeholder="  Email">
+                    <input name="Senha" type="password" placeholder="  Senha">
                     <button class="botao_logar" type="submit">Entrar</button>
                 </form>
                 <div class="ou"><div><hr></div><span>OU</span><div><hr></div></div>

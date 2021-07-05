@@ -1,4 +1,3 @@
-using InstaDev_Grupo1.Interfaces;
 using InstaDev_Grupo1.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +6,8 @@ using System.Collections.Generic;
 
 namespace InstaDev_Grupo1.Controllers
 {
+
+    [Route("Usuario")]
     public class CadastrarController : Controller
     {
 
@@ -20,38 +21,36 @@ namespace InstaDev_Grupo1.Controllers
         }
 
         [Route("Cadastrar")]
-        public IActionResult Cadastrar(IFormCollection form)
+        public IActionResult Cadastrar (IFormCollection form)
         {
             Usuario novoUsuario = new Usuario();
 
-            Usuario UsuarioEncontrado = new Usuario();
+            // Usuario UsuarioEncontrado = new Usuario();
 
-            do
-            {
-                Random Id = new Random();
-                List<Usuario> ListaUsuario = usuarioModel.ListarUsuarios();
-                int IdNew = Id.Next(500000);
+            // do
+            // {
+            //     Random Id = new Random();
+            //     List<Usuario> ListaUsuario = usuarioModel.ListarUsuarios();
+            //     int IdNew = Id.Next(500000);
 
 
-                UsuarioEncontrado = ListaUsuario.Find(item => item.IdUsuario == IdNew);
+            //     UsuarioEncontrado = ListaUsuario.Find(item => item.IdUsuario == IdNew);
 
-                if (UsuarioEncontrado == null)
-                {
-                    novoUsuario.IdUsuario = IdNew;
-                }
+            //     if (UsuarioEncontrado == null)
+            //     {
+            //         novoUsuario.IdUsuario = IdNew;
+            //     }
 
-            } while (UsuarioEncontrado != null);
+            // } while (UsuarioEncontrado != null);
 
             novoUsuario.IdUsuario = Int32.Parse(form["IdUsuario"]);
 
-            List<string> UsuarioCSV = usuarioModel.LerTodasLinhasCSV("Database/usuario.csv");
             novoUsuario.Nome = form["Nome"];
             novoUsuario.UserName = form["Username"];
             novoUsuario.Email = form["Email"];
             novoUsuario.Senha = form["Senha"];
 
-            novoUsuario.Cadastrar(novoUsuario);
-            ViewBag.Usuarios = novoUsuario.ListarUsuarios();
+            usuarioModel.Cadastrar(novoUsuario);
 
             return LocalRedirect("~/Feed/Listar");
         }
