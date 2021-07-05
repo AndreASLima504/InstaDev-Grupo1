@@ -11,14 +11,19 @@ namespace InstaDev_Grupo1.Controllers
     public class FeedController : Controller
     {
         Postagem PostagemModel = new Postagem();
+
+        Usuario UsuarioModel = new Usuario();
+
         Comentario ComentarioModel = new Comentario();
 
         [Route("Listar")]
         public IActionResult Index()
         {
-            ViewBag.Equipes = PostagemModel.ListarPosts();
+            ViewBag.Usuarios = UsuarioModel.ListarUsuarios();
+            ViewBag.Postagens = PostagemModel.ListarPosts();
             return View();
         }
+
 
         [Route("Cadastrar")]
         public IActionResult Cadastrar(IFormCollection form)
@@ -45,7 +50,7 @@ namespace InstaDev_Grupo1.Controllers
 
 
             // id Usuario
-            // NovaPostagem.IdUsuario = ;
+            NovaPostagem.IdUsuario = UsuarioModel.IdUsuario;
             NovaPostagem.Conteudo = form["Conteudo"];
             NovaPostagem.Imagem = form["Imagem"];
 
