@@ -111,6 +111,7 @@ body {
     border-radius: 5px;
     background-color: var(--fundo2); 
     border: 1px solid #EAEAEA;
+    margin: 0;
 }
 
 .label {
@@ -143,6 +144,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: var(--fundo1);
+    margin: 0;
 }
 
 .Fazer_Publi {

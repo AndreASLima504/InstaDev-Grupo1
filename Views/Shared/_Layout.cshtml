@@ -25,12 +25,12 @@
     
     <header>
         <div class="containerHEADER container_header">
-            <img class="logo_site" src="../Imagens/Instadev.svg">
+            <a asp-area="" asp-controller="Feed" asp_action="Index"><img class="logo_site" src="../Imagens/Instadev.svg"></a>
 
             <input type="text" id="txtBusca" placeholder="Pesquisar" />
 
             <nav class="menu_header">
-                <li><i class="fas fa-home"></i></li>
+                <a asp-area="" asp-controller="Feed" asp_action="Index"><li><i class="fas fa-home"></i></li></a>
                 <li><i class="far fa-paper-plane"></i></li>
                 <li><i class="far fa-compass"></i></li>
                 <li><i class="far fa-heart"></i></li>
@@ -39,10 +39,7 @@
 
         </div>
     </header>
-    
-    <footer class="footer grid letter">
-        <span>Copyright © 2021 - Escola Senai de Informática</span>
-    </footer>
+
 }
 
 
@@ -58,5 +55,13 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
+@if (ViewData["Title"].ToString() == "Feed" )
+{
+    <footer class="footer grid letter">
+        <span>Copyright © 2021 - Escola Senai de Informática</span>
+    </footer>
+
+}
 
 </html>

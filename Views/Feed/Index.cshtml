@@ -10,29 +10,29 @@
                 <!-- storys -->
                 <div class="pessoas_logadas item_section">
 
-
+@* 
                     @for (var i = 0; i < 7; i++)
                     {
                         var item = ViewBag.Usuarios[i];
                          <div class="perfil_logado">
+                             @* falta o caminho no scr 
                             <img class="img_story" src="@item.Imagem" alt="">
                             <span class="fonte_story">@item.UserName</span>
 
                         </div>
-                    }
+                    } *@
 
-                    @* @foreach (var item in ViewBag.Usuarios)
+                    @foreach (var item in ViewBag.Usuarios)
                     {
                         <div class="perfil_logado">
-                            <img class="img_story" src="@item.Imagem" alt="">
+                            @* <img class="img_story" src="@item.Imagem" alt=""> *@
+                            <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
                             <span class="fonte_story">@item.UserName</span>
-                            @* <span class="fonte_story">@ViewBag.Usuarios.Usuario.UserName</span> *@
+                         </div>
 
-                        @* </div>
+                    } 
 
-                    }  *@
-
-                    <div class="perfil_logado">
+                    @* <div class="perfil_logado">
                         <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
                         <span class="fonte_story">Nome_Pelé</span>
                     </div>
@@ -55,7 +55,7 @@
                     <div class="perfil_logado">
                         <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
                         <span class="fonte_story">Nome_Pelé</span>
-                    </div>
+                    </div> *@
                 </div>
             </div>
 
@@ -78,6 +78,7 @@
             <!-- publicações -->
             <div class="Fazer_Publi item_section">
                 <div class="usuario">
+                    
                     <img class="img_postar" src="/Imagens/HomemdeFerro.jpg" alt="">
                     <span class="fonte_usuario">Homem_Ferro</span>
                 </div>

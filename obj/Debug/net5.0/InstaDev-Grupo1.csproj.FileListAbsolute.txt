@@ -85,7 +85,6 @@ D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Logi
 D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Feed\Index.cshtml.g.cs
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Feed\Index.cshtml.g.cs
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Login\index.cshtml.g.cs
-<<<<<<< HEAD
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.json
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.exe
@@ -128,7 +127,6 @@ C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\ref\I
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.pdb
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
-=======
 C:\Users\Claudeci.Paz\OneDrive\Área de Trabalho\Senai\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Claudeci.Paz\OneDrive\Área de Trabalho\Senai\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.json
 C:\Users\Claudeci.Paz\OneDrive\Área de Trabalho\Senai\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.exe
@@ -218,3 +216,7 @@ C:\Users\andre\Documents\SENAU\InstaDev\obj\Debug\net5.0\InstaDev-Grupo1.pdb
 C:\Users\andre\Documents\SENAU\InstaDev\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
 C:\Users\andre\Documents\SENAU\InstaDev\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
 >>>>>>> 9ef2ff2ba654a8fa4b07f3a4c1eeb90a9bfbd321
+C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Cadastrar\index.cshtml.g.cs
+C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Perfil\index.cshtml.g.cs
+C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Cadastrar\index.cshtml.g.cs
+C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Perfil\index.cshtml.g.cs

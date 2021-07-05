@@ -12,6 +12,13 @@
     --fundo2: #FAFAFA;
 }
 
+.erro {
+  font-family: Segoe UI;
+  font-size: 14px;
+  color: red;
+  margin-top: 10px;
+}
+
   .containerHEADER {
     /* width: 1200px; */
     margin: 0 auto;
