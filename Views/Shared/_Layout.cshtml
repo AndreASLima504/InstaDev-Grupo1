@@ -30,11 +30,28 @@
             <input type="text" id="txtBusca" placeholder="Pesquisar" />
 
             <nav class="menu_header">
-<<<<<<< HEAD
                 <a asp-area="" asp-controller="Feed" asp_action="Index" style="color: black;"><li><i class="fas fa-home"></i></li></a>
-=======
-                <a asp-area="" asp-controller="Feed" asp-action="Index"><li><i class="fas fa-home"></i></li></a>
->>>>>>> 798c5ce58d1599c4ddb24f135541e2e0cabd601e
+                <li><i class="far fa-paper-plane"></i></li>
+                <li><i class="far fa-compass"></i></li>
+                <li><i class="far fa-heart"></i></li>
+                <a asp-area="" asp-controller="Usuario" asp-action="Index" class="FotoPerfil"><img src="../Imagens/Jeeves menor.png"></a>
+            </nav>
+
+        </div>
+    </header>
+
+}
+@if (ViewData["Title"].ToString() == "Perfil" )
+{
+    
+    <header>
+        <div class="containerHEADER container_header">
+            <a asp-area="" asp-controller="Feed" asp-action="Index"><img class="logo_site" src="../Imagens/Instadev.svg"></a>
+
+            <input type="text" id="txtBusca" placeholder="Pesquisar" />
+
+            <nav class="menu_header">
+                <a asp-area="" asp-controller="Feed" asp_action="Index" style="color: black;"><li><i class="fas fa-home"></i></li></a>
                 <li><i class="far fa-paper-plane"></i></li>
                 <li><i class="far fa-compass"></i></li>
                 <li><i class="far fa-heart"></i></li>
@@ -61,6 +78,13 @@
 </body>
 
 @if (ViewData["Title"].ToString() == "Feed" )
+{
+    <footer class="footer grid letter">
+        <span>Copyright © 2021 - Escola Senai de Informática</span>
+    </footer>
+
+}
+@if (ViewData["Title"].ToString() == "Perfil" )
 {
     <footer class="footer grid letter">
         <span>Copyright © 2021 - Escola Senai de Informática</span>
