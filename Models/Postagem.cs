@@ -9,7 +9,7 @@ namespace InstaDev_Grupo1.Models
     {
         public int IdPostagem { get; set; }
 
-        public int IdUsuario { get; set; }
+        public string UserName { get; set; }
 
         public string Conteudo { get; set; }
 
@@ -26,7 +26,7 @@ namespace InstaDev_Grupo1.Models
 
          private string Preparar(Postagem p)
         {
-            return $"{p.IdPostagem};{p.IdUsuario};{p.Conteudo}; {p.Imagem}";
+            return $"{p.IdPostagem};{p.UserName};{p.Conteudo};{p.Imagem}";
         }
 
         public void Cadastrar(Postagem p)
@@ -46,7 +46,7 @@ namespace InstaDev_Grupo1.Models
                 Postagem post = new Postagem();
 
                 post.IdPostagem = Int32.Parse(CadaLinha[0]);
-                post.IdUsuario = Int32.Parse(CadaLinha[1]);
+                post.UserName = CadaLinha[1];
                 post.Conteudo = CadaLinha[2];
                 post.Imagem = CadaLinha[3];
 
