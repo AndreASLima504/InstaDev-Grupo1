@@ -1,6 +1,7 @@
 @model Usuario
 @{
     ViewData["Title"] = "Feed";
+    ViewBag.Postagens.Reverse();
 }
 
 <main>
@@ -32,37 +33,13 @@
 
                     }
 
-                    @* <div class="perfil_logado">
-                        <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
-                        <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                        <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
-                        <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                        <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
-                        <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                        <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
-                        <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                        <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
-                        <span class="fonte_story">Nome_Pelé</span>
-                        </div>
-                        <div class="perfil_logado">
-                        <img class="img_story" src="/Imagens/Pelé.jpg" alt="">
-                        <span class="fonte_story">Nome_Pelé</span>
-                        </div> *@
                 </div>
             </div>
 
             <!-- postagem -->
             <div class="Fazer_Postagem item_section">
                 <div class="usuario">
-                    <img class="img_postar" src="/Imagens/padrauUsuario.png" alt="">
+                    <img class="img_postar" src="/Imagens/padraoUsuario.png" alt="">
                     <span class="fonte_usuario">Postar</span>
                 </div>
                 <form class="inputs" method="POST" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
@@ -81,7 +58,7 @@
             <div class="Fazer_Publi item_section">
                 <div class="usuario">
 
-                    <img class="img_postar" src="" alt="">
+                    <img class="img_postar" src="/Imagens/padraoUsuario.png" alt="">
                     <span class="fonte_usuario">Homem_Ferro</span>
                 </div>
                 <div>
@@ -113,29 +90,24 @@
 
             <div>
 
-                @foreach (Postagem postagem in ViewBag.Postagens)
+                @foreach (Postagem item in ViewBag.Postagens)
                 {
                     <div class="Fazer_Publi item_section">
                         <div class="usuario">
 
-                            <img class="img_postar" src="/Imagens/padrauUsuario.png" alt="">
+                            <img class="img_postar" src="/Imagens/padraoUsuario.png" alt="">
                             <span class="fonte_usuario">@item.UserName</span>
                         </div>
                         <div>
-                            <img class="img_publicada" src="~/img/Postagens/@postagem.Imagem" alt="Imagem da publicacao" >
+                            <img class="img_publicada" src="~/img/Postagens/@item.Imagem" alt="Imagem da publicacao" >
                             <div class="icones">
                                 <img class="like" src="/Imagens/like.png.png" alt="">
                                 <img class="plane" src="/Imagens/plane.png" alt="">
                                 <input class="input_text" type="text" placeholder=" Digite um comentário">
                             </div>
                             <div class="conteudo_publicacoes publi">
-<<<<<<< HEAD
                                 <span class="fonte_publi">@item.UserName</span>
                                 <p class="descricao_publi">@item.Conteudo</p>
-=======
-                                <span class="fonte_publi">Homem_Ferro</span>
-                                <p class="descricao_publi">@postagem.Conteudo</p>
->>>>>>> 57e90d4a37ad7f1b6a915740dce26694ac709e1d
                             </div>
 
                             <!-- comentarios -->
@@ -155,12 +127,12 @@
 
         <!-- usuario -->
         <div class="usuario item_section">
-            <img class="img_story" src="../Imagens/padrauUsuario.png" alt="">
+            <img class="img_story" src="../Imagens/padraoUsuario.png" alt="">
             @* <img class="img_story" src="/img/@ViewBag.Usuario.Foto" alt=""> *@
             <div class="conteudo">
                 <span class="fonte_usuario">@ViewBag.Usuario.UserName</span>
                 @* <span class="fonte_usuario">Homem_Ferro</span> *@
-                <span class="fonte_status">Armadura</span>
+                <span class="fonte_status">@ViewBag.Usuario.Nome</span>
             </div>
         </div>
 

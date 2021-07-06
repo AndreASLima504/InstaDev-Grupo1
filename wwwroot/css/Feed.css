@@ -152,7 +152,7 @@ body {
     /* width: 70%; */
     background-color: var(--fundo1);
     border: 1px solid #F1F1F1;
-    padding: 30px 30px;
+    /* padding: 30px 30px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -177,6 +177,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 10px;
 }
 
 .like {
@@ -192,7 +193,7 @@ body {
 .conteudo_publicacoes {
     display: flex;
     align-items: center;
-    margin: 5px 0px;
+    margin: 5px 20px;
 }
 
 .descricao_publi {
