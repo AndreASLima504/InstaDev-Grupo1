@@ -85,7 +85,7 @@ namespace InstaDev_Grupo1.Controllers
 
             ViewBag.Postagens = PostagemModel.ListarPosts();
 
-            return LocalRedirect("~/Postagem/Listar");
+            return LocalRedirect("~/Feed/Listar");
         }
 
 

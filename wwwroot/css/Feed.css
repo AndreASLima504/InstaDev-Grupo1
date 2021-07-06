@@ -166,7 +166,8 @@ body {
 
 .img_publicada {
     width: 100%;
-    height: unset;
+    height: 343px;
+    margin: 0 auto;
 }
 
 .icones {
