@@ -25,23 +25,23 @@ namespace InstaDev_Grupo1.Controllers
         {
             Usuario novoUsuario = new Usuario();
 
-            // Usuario UsuarioEncontrado = new Usuario();
+            Usuario UsuarioEncontrado = new Usuario();
 
-            // do
-            // {
-            //     Random Id = new Random();
-            //     List<Usuario> ListaUsuario = usuarioModel.ListarUsuarios();
-            //     int IdNew = Id.Next(500000);
+            do
+            {
+                Random Id = new Random();
+                List<Usuario> ListaUsuario = usuarioModel.ListarUsuarios();
+                int IdNew = Id.Next(500000);
 
 
-            //     UsuarioEncontrado = ListaUsuario.Find(item => item.IdUsuario == IdNew);
+                UsuarioEncontrado = ListaUsuario.Find(item => item.IdUsuario == IdNew);
 
-            //     if (UsuarioEncontrado == null)
-            //     {
-            //         novoUsuario.IdUsuario = IdNew;
-            //     }
+                if (UsuarioEncontrado == null)
+                {
+                    novoUsuario.IdUsuario = IdNew;
+                }
 
-            // } while (UsuarioEncontrado != null);
+            } while (UsuarioEncontrado != null);
 
             novoUsuario.IdUsuario = Int32.Parse(form["IdUsuario"]);
 

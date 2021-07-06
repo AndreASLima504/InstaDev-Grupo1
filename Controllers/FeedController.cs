@@ -19,6 +19,8 @@ namespace InstaDev_Grupo1.Controllers
         [Route("Listar")]
         public IActionResult Index()
         {
+            // ViewBag.UserName = HttpContext.Session.GetString("UserName");
+            ViewBag.Usuario = UsuarioModel.MostrarDados (int.Parse(HttpContext.Session.GetString("_UserId")));
             ViewBag.Usuarios = UsuarioModel.ListarUsuarios();
             ViewBag.Postagens = PostagemModel.ListarPosts();
             return View();
@@ -50,8 +52,8 @@ namespace InstaDev_Grupo1.Controllers
 
 
             // id Usuario
-            ViewBag.Usuarios = UsuarioModel.MostrarDados (int.Parse(HttpContext.Session.GetString("_UserId")));
-            // NovaPostagem.IdUsuario = UsuarioModel.IdUsuario;
+            // ViewBag.Usuarios = UsuarioModel.MostrarDados (int.Parse(HttpContext.Session.GetString("_UserId")));
+            NovaPostagem.UserName = HttpContext.Session.GetString("_UserName");
             NovaPostagem.Conteudo = form["Conteudo"];
             NovaPostagem.Imagem = form["Imagem"];
 
@@ -68,7 +70,7 @@ namespace InstaDev_Grupo1.Controllers
 
                 }
 
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", folder, file.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/", folder, file.FileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
                 {

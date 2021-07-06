@@ -126,6 +126,7 @@ li {
 .imgPerfil {
   width: 152px;
   height: 154px;
+  object-fit: cover;
   border-radius: 50%;
 }
 
