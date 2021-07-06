@@ -3,7 +3,7 @@
 
 <head>
 
-    @if (ViewData["Title"].ToString() == "PagPerfil")
+    @if (ViewData["Title"].ToString() == "Perfil")
     {
         <link rel="stylesheet" href="~/css/pagPerfil.css" />
     }
@@ -25,16 +25,20 @@
     
     <header>
         <div class="containerHEADER container_header">
-            <a asp-area="" asp-controller="Feed" asp_action="Index"><img class="logo_site" src="../Imagens/Instadev.svg"></a>
+            <a asp-area="" asp-controller="Feed" asp-action="Index"><img class="logo_site" src="../Imagens/Instadev.svg"></a>
 
             <input type="text" id="txtBusca" placeholder="Pesquisar" />
 
             <nav class="menu_header">
+<<<<<<< HEAD
                 <a asp-area="" asp-controller="Feed" asp_action="Index" style="color: black;"><li><i class="fas fa-home"></i></li></a>
+=======
+                <a asp-area="" asp-controller="Feed" asp-action="Index"><li><i class="fas fa-home"></i></li></a>
+>>>>>>> 798c5ce58d1599c4ddb24f135541e2e0cabd601e
                 <li><i class="far fa-paper-plane"></i></li>
                 <li><i class="far fa-compass"></i></li>
                 <li><i class="far fa-heart"></i></li>
-                <a class="FotoPerfil" href="#perfil"><img src="../Imagens/Jeeves menor.png"></a>
+                <a asp-area="" asp-controller="Usuario" asp-action="Index" class="FotoPerfil"><img src="../Imagens/Jeeves menor.png"></a>
             </nav>
 
         </div>

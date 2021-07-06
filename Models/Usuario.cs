@@ -79,6 +79,7 @@ namespace InstaDev_Grupo1.Models
         {
             List<Usuario> usuarios = ListarUsuarios();
             Usuario UsuarioProcurado = usuarios.Find(x => x.IdUsuario == IdUsuario);
+          
 
             return UsuarioProcurado;
         }
