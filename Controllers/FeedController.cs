@@ -50,7 +50,8 @@ namespace InstaDev_Grupo1.Controllers
 
 
             // id Usuario
-            NovaPostagem.IdUsuario = UsuarioModel.IdUsuario;
+            ViewBag.Usuarios = UsuarioModel.MostrarDados (int.Parse(HttpContext.Session.GetString("_UserId")));
+            // NovaPostagem.IdUsuario = UsuarioModel.IdUsuario;
             NovaPostagem.Conteudo = form["Conteudo"];
             NovaPostagem.Imagem = form["Imagem"];
 
@@ -78,7 +79,7 @@ namespace InstaDev_Grupo1.Controllers
             }
             else
             {
-                NovaPostagem.Imagem = "";
+                NovaPostagem.Imagem = "padraoFeed.png";
             }
 
             PostagemModel.Cadastrar(NovaPostagem);
