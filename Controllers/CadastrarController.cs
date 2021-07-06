@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace InstaDev_Grupo1.Controllers
 {
 
-    [Route("Usuario")]
+    [Route("Cadastro")]
     public class CadastrarController : Controller
     {
 

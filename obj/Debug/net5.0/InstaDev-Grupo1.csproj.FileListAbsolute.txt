@@ -220,3 +220,5 @@ C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\Razor
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Perfil\index.cshtml.g.cs
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Cadastrar\index.cshtml.g.cs
 C:\Users\elilt\OneDrive\Documentos\SENAI\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Perfil\index.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Cadastrar\index.cshtml.g.cs
+D:\Senai\Programação em HTML\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Usuario\index.cshtml.g.cs
