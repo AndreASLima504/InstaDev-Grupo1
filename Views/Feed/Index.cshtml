@@ -113,7 +113,7 @@
 
             <div>
 
-                @foreach (var item in ViewBag.Postagens)
+                @foreach (Postagem postagem in ViewBag.Postagens)
                 {
                     <div class="Fazer_Publi item_section">
                         <div class="usuario">
@@ -122,17 +122,21 @@
                             <span class="fonte_usuario">@item.UserName</span>
                         </div>
                         <div>
-                            <img class="img_publicada" src="/img/Postagens/@item.Imagem" alt="" >
+                            <img class="img_publicada" src="~/img/Postagens/@postagem.Imagem" alt="Imagem da publicacao" >
                             <div class="icones">
                                 <img class="like" src="/Imagens/like.png.png" alt="">
                                 <img class="plane" src="/Imagens/plane.png" alt="">
                                 <input class="input_text" type="text" placeholder=" Digite um comentário">
                             </div>
                             <div class="conteudo_publicacoes publi">
+<<<<<<< HEAD
                                 <span class="fonte_publi">@item.UserName</span>
                                 <p class="descricao_publi">@item.Conteudo</p>
+=======
+                                <span class="fonte_publi">Homem_Ferro</span>
+                                <p class="descricao_publi">@postagem.Conteudo</p>
+>>>>>>> 57e90d4a37ad7f1b6a915740dce26694ac709e1d
                             </div>
-
 
                             <!-- comentarios -->
                         <div class="conteudo_publicacoes">
