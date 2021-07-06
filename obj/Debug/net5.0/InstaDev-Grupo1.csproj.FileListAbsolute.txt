@@ -53,7 +53,6 @@ C:\Users\dev\Desktop\InstaDev-Grupo1\bin\Debug\net5.0\ref\InstaDev-Grupo1.dll
 C:\Users\dev\Desktop\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.pdb
 C:\Users\dev\Desktop\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.Views.dll
 C:\Users\dev\Desktop\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.Views.pdb
-C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.AssemblyReference.cache
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.AssemblyInfoInputs.cache
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.AssemblyInfo.cs
@@ -87,3 +86,4 @@ C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.pdb
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Editar Perfil\index.cshtml.g.cs
+C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csprojAssemblyReference.cache
