@@ -8,7 +8,8 @@
         <div class="container_perfil">
             <img class="imgPerfil" src="../Imagens/mcpoze.jpg" alt="" />
             <div class="infoPerfil">
-                <span class="nome">poze_rodo</span>
+                <span class="nome">@ViewBag.Usuario.UserName</span>
+                @* <span class="nome">poze_rodo</span> *@
 
                 <div class="infos_Perfil">
 
@@ -19,7 +20,7 @@
                 </div>
 
                 <div class="Nome_Sair">
-                    <span class="Nome_Perfil">Poze do Rodo</span>
+                    <span class="Nome_Perfil">@ViewBag.Usuario.UserName</span>
                     <a asp-area="" asp-controller="EditarPerfil" asp-action="Index">Editar Perfil</a>
                     <a asp-area="" asp-controller="Login" asp-action="Logout">Sair</a>
                 </div>
@@ -41,7 +42,7 @@
             <div class="box_fotoInfo">
                 <img class=imgPerfil_menor src="../Imagens/mcpoze.jpg" alt="">
                 <div class="box_perfil_comentarios">
-                    <span class="Nome_Perfil">Poze do Rodo</span>
+                    <span class="Nome_Perfil">@ViewBag.Usuario.UserName</span>
                     <span>Rio de Janeiro, Brasil</span>
                 </div>
             </div>
