@@ -1,3 +1,5 @@
+using InstaDev_Grupo1.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InstaDev_Grupo1.Controllers
@@ -7,11 +9,13 @@ namespace InstaDev_Grupo1.Controllers
     public class EditarPerfil : Controller
     {
 
-        [Route("Index")]
-       public IActionResult Index() {
+       Usuario usuarioModel = new Usuario();
 
-           return View();
-       }
+            [Route("Listar")]
+            public IActionResult Index(){
+
+             return View();
+           }
 
        
     }

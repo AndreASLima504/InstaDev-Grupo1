@@ -68,7 +68,7 @@ namespace InstaDev_Grupo1.Controllers
 
                 }
 
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", folder, file.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/", folder, file.FileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
