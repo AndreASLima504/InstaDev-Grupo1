@@ -1,4 +1,4 @@
-
+@model Postagem
 @{
     ViewData["Title"] = "Perfil";
 }
@@ -36,8 +36,12 @@
         <span>Publicações</span>
     </div>
 
+          @foreach (var item in ViewBag.PostPerfil)
+          {
+    
     <section class="container_post">
-        <img class="foto_post" src="../Imagens/framengo.jpeg" alt="poze">
+        <img class="foto_post" src="/img/Postagens/@item.Imagem" alt="poze">
+        @* <img class="foto_post" src="../Imagens/framengo.jpeg" alt="poze"> *@
         <div class="comentarios">
             <div class="box_fotoInfo">
                 <img class=imgPerfil_menor src="../Imagens/mcpoze.jpg" alt="">
@@ -118,8 +122,8 @@
 
                     </div>
                    
-                 
                 </div>
+                        
                
             </div>
             <div class="comentario">
@@ -128,5 +132,6 @@
             </div>
         </div>
     </section>
+     }
 
 </main>
