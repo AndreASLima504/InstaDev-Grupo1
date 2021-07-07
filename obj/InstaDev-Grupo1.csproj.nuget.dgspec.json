@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj": {}
+    "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj": {
+    "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
+        "projectUniqueName": "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
         "projectName": "InstaDev-Grupo1",
-        "projectPath": "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
-        "packagesPath": "C:\\Users\\elilt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\obj\\",
+        "projectPath": "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
+        "packagesPath": "C:\\Users\\Gustavo Rezende\\.nuget\\packages\\",
+        "outputPath": "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elilt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gustavo Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
