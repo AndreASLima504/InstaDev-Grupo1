@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nHEOpr4m4Pi4bGbZyTUmSenH+ZzY8JcZWAOlamdxc1zwpg2eyI/XhL3FDLFRJfVjqZdDZvejsI4EqExi1DrWzA==",
+  "dgSpecHash": "btUP5coAzh98OH2XGgnzWO2REgOoJd+Pz5bisSspzgqQfYMmubtbHi4nboyYdJhhZUgMy13Dk2qcXS6cQz9dng==",
   "success": true,
-  "projectFilePath": "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
+  "projectFilePath": "C:\\Users\\elilt\\OneDrive\\Área de Trabalho\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
