@@ -8,11 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\dev\\.nuget\\packages\\": {}
+=======
     "C:\\Users\\Gustavo Rezende\\.nuget\\packages\\": {}
+>>>>>>> 0ea260c8dffb51edbe3692d2a9d86a47118067ed
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\dev\\Desktop\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
+      "projectName": "InstaDev-Grupo1",
+      "projectPath": "C:\\Users\\dev\\Desktop\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
+      "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dev\\Desktop\\InstaDev-Grupo1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
       "projectUniqueName": "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
       "projectName": "InstaDev-Grupo1",
       "projectPath": "D:\\Senai\\Programação em HTML\\InstaDev-Grupo1\\InstaDev-Grupo1.csproj",
@@ -21,6 +35,7 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gustavo Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 0ea260c8dffb51edbe3692d2a9d86a47118067ed
       ],
       "originalTargetFrameworks": [
         "net5.0"
