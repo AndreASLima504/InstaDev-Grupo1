@@ -13,6 +13,7 @@ namespace InstaDev_Grupo1.Controllers
 
             [Route("Listar")]
             public IActionResult Index(){
+              ViewBag.Usuario = usuarioModel.MostrarDados (int.Parse(HttpContext.Session.GetString("_UserId")));
 
              return View();
            }
