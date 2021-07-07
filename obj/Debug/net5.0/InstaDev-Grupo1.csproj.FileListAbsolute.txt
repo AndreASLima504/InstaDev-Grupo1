@@ -89,7 +89,6 @@ C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntime
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csprojAssemblyReference.cache
 C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\EditarPerfil\index.cshtml.g.cs
-C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\Razor\Views\Editar Perfil\index.cshtml.g.cs
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\bin\Debug\net5.0\appsettings.json
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\bin\Debug\net5.0\InstaDev-Grupo1.exe
@@ -136,6 +135,5 @@ C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\Insta
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.Views.pdb
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.genruntimeconfig.cache
 C:\Users\elilt\OneDrive\Área de Trabalho\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.CopyComplete
-C:\Users\dev\Desktop\InstaDev-Grupo1\obj\Debug\net5.0\InstaDev-Grupo1.csproj.AssemblyReference.cache
 >>>>>>> 57e90d4a37ad7f1b6a915740dce26694ac709e1d
 >>>>>>> a4f7731d2f1cc588546add9e47d72b0a76351103
