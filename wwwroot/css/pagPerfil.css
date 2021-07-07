@@ -220,9 +220,9 @@ li {
 }
 
 .container_post {
-  width: 57%;
-  height: 404px;
-  /* margin-left: 25%; */
+  width: 100%;
+  height: 410px;
+  margin-right: 2px;
   margin-top: 2%;
   display: flex;
   background-color: var(--fundo1);
@@ -232,7 +232,9 @@ li {
 
 .foto_post {
   width: 50%;
-  height: 404px;
+  height: 410px;
+
+  background-color: brown;
 }
 
 .comentarios {
