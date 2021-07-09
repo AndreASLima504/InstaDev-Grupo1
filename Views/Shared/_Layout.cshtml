@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    @if (ViewData["Title"].ToString() == "Perfil")
+    {
+        <link rel="stylesheet" href="~/css/pagPerfil.css" />
+    }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaDev</title>
+    <link rel="stylesheet" href="~/css/Base.css">
+    <link rel="stylesheet" href="~/css/EditarPerfil.css">
+    <link rel=" stylesheet" href="~/css/Feed.css">
+    <link rel=" stylesheet" href="~/css/pagPerfil.css">
+    <link rel=" stylesheet" href="~/css/Paginas_Cadastro_e_Login.css">
+    <script src="https://kit.fontawesome.com/8072771ef9.js" crossorigin="anonymous"></script>
+</head>
+
+
+@if (ViewData["Title"].ToString() == "Feed" )
+{
+    
+    <header>
+        <div class="containerHEADER container_header">
+            <a asp-area="" asp-controller="Feed" asp-action="Index"><img class="logo_site" src="../Imagens/Instadev.svg"></a>
+
+            <input type="text" id="txtBusca" placeholder="Pesquisar" />
+
+            <nav class="menu_header">
+                <a asp-area="" asp-controller="Feed" asp_action="Index" style="color: black;"><li><i class="fas fa-home"></i></li></a>
+                <li><i class="far fa-paper-plane"></i></li>
+                <li><i class="far fa-compass"></i></li>
+                <li><i class="far fa-heart"></i></li>
+                <a asp-area="" asp-controller="Usuario" asp-action="Index" class="FotoPerfil"><img src="/Imagens/padraoUsuario.png"></a>
+            </nav>
+
+        </div>
+    </header>
+
+}
+@if (ViewData["Title"].ToString() == "EditarPerfil" )
+{
+    
+    <header>
+        <div class="containerHEADER container_header">
+            <a asp-area="" asp-controller="Feed" asp-action="Index"><img class="logo_site" src="../Imagens/Instadev.svg"></a>
+
+            <input type="text" id="txtBusca" placeholder="Pesquisar" />
+
+            <nav class="menu_header">
+                <a asp-area="" asp-controller="Feed" asp_action="Index" style="color: black;"><li><i class="fas fa-home"></i></li></a>
+                <li><i class="far fa-paper-plane"></i></li>
+                <li><i class="far fa-compass"></i></li>
+                <li><i class="far fa-heart"></i></li>
+                <a asp-area="" asp-controller="Usuario" asp-action="Index" class="FotoPerfil"><img src="/Imagens/padraoUsuario.png"></a>
+            </nav>
+
+        </div>
+    </header>
+
+}
+@if (ViewData["Title"].ToString() == "Perfil" )
+{
+    
+    <header>
+        <div class="containerHEADER container_header">
+            <a asp-area="" asp-controller="Feed" asp-action="Index"><img class="logo_site" src="../Imagens/Instadev.svg"></a>
+
+            <input type="text" id="txtBusca" placeholder="Pesquisar" />
+
+            <nav class="menu_header">
+                <a asp-area="" asp-controller="Feed" asp_action="Index" style="color: black;"><li><i class="fas fa-home"></i></li></a>
+                <li><i class="far fa-paper-plane"></i></li>
+                <li><i class="far fa-compass"></i></li>
+                <li><i class="far fa-heart"></i></li>
+                <a asp-area="" asp-controller="Usuario" asp-action="Index" class="FotoPerfil"><img src="/Imagens/padraoUsuario.png"></a>
+            </nav>
+
+        </div>
+    </header>
+
+}
+
+
+<body>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+@if (ViewData["Title"].ToString() == "Feed" )
+{
+    <footer class="footer grid letter">
+        <span>Copyright © 2021 - Escola Senai de Informática</span>
+    </footer>
+
+}
+@if (ViewData["Title"].ToString() == "Perfil" )
+{
+    <footer class="footer grid letter">
+        <span>Copyright © 2021 - Escola Senai de Informática</span>
+    </footer>
+
+}
+
+@if (ViewData["Title"].ToString() == "EditarPerfil" )
+{
+    <footer class="footer grid letter">
+        <span>Copyright © 2021 - Escola Senai de Informática</span>
+    </footer>
+
+}
+
+
+
+
+</html>

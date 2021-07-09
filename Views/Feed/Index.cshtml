@@ -1,0 +1,106 @@
+@model Usuario
+@{
+    ViewData["Title"] = "Feed";
+    ViewBag.Postagens.Reverse();
+}
+
+<main>
+    <section class="grid section">
+        <div class="feed">
+            <div>
+                <!-- storys -->
+                <div class="pessoas_logadas item_section">
+
+                    @*
+                        @for (var i = 0; i < 7; i++)
+                        {
+                        var item = ViewBag.Usuarios[i];
+                        <div class="perfil_logado">
+                        @* falta o caminho no scr
+                        <img class="img_story" src="@item.Imagem" alt="">
+                        <span class="fonte_story">@item.UserName</span>
+
+                        </div>
+                        } *@
+
+                    @foreach (var item in ViewBag.Usuarios)
+                    {
+                        <div class="perfil_logado">
+                            @* <img class="img_story" src="@item.Imagem" alt=""> *@
+                            <img class="img_story" src="/Imagens/padraoUsuario.png" alt="">
+                            <span class="fonte_story">@item.UserName</span>
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+
+            <!-- postagem -->
+            <div class="Fazer_Postagem item_section">
+                <div class="usuario">
+                    <img class="img_postar" src="/Imagens/padraoUsuario.png" alt="">
+                    <span class="fonte_usuario">Postar</span>
+                </div>
+                <form class="inputs" method="POST" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+                    <input name="Conteudo" class="input_text" type="text"
+                        placeholder=" Digite a descrição da publicação">
+                    <label class="label" for="file">Escolha uma imagem</label>
+                    <input name="Imagem" class="input_file" type="file" id="file">
+                    <button class="button_postar">Postar</button>
+                </form>
+
+            </div>
+
+
+            <div>
+
+                @foreach (Postagem item in ViewBag.Postagens)
+                {
+                    <div class="Fazer_Publi item_section">
+                        <div class="usuario">
+
+                            <img class="img_postar" src="/Imagens/padraoUsuario.png" alt="">
+                            <span class="fonte_usuario">@item.UserName</span>
+                        </div>
+                        <div>
+                            <img class="img_publicada" src="~/img/Postagens/@item.Imagem" alt="Imagem da publicacao" >
+                            <div class="icones">
+                                <img class="like" src="/Imagens/like.png.png" alt="">
+                                <img class="plane" src="/Imagens/plane.png" alt="">
+                                <input class="input_text" type="text" placeholder=" Digite um comentário">
+                            </div>
+                            <div class="conteudo_publicacoes publi">
+                                <span class="fonte_publi">@item.UserName</span>
+                                <p class="descricao_publi">@item.Conteudo</p>
+                            </div>
+
+                            <!-- comentarios -->
+                        <div class="conteudo_publicacoes">
+                                <span class="fonte_publi">Gabigol</span>
+                                <p class="descricao_publi">Zika da favela!</p>
+                            </div>
+                            <div class="conteudo_publicacoes">
+                                <span class="fonte_publi">Zezinho</span>
+                                <p class="descricao_publi">Thank you!</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- usuario -->
+        <div class="usuario item_section">
+            <img class="img_story" src="../Imagens/padraoUsuario.png" alt="">
+            @* <img class="img_story" src="/img/@ViewBag.Usuario.Foto" alt=""> *@
+            <div class="conteudo">
+                <span class="fonte_usuario">@ViewBag.Usuario.UserName</span>
+                @* <span class="fonte_usuario">Homem_Ferro</span> *@
+                <span class="fonte_status">@ViewBag.Usuario.Nome</span>
+            </div>
+        </div>
+
+    </section>
+
+</main>

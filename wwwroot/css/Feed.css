@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: var(--fundo2);
+}
+
+.section {
+    display: flex;
+    align-items: baseline;
+}
+
+.feed {
+    width: 610px;
+    margin: 0 auto;
+}
+
+.item_section {
+    margin: 40px 0px;
+}
+
+.pessoas_logadas {
+    height: 113px;
+    /* width: 72%; */
+    background-color: var(--fundo1);
+    /* margin-top: 30px; */
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #F1F1F1;
+}
+
+.perfil_logado {
+    height: 80px;
+    width: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_story {
+    width: 62px;
+    height: 62px;
+    clip-path: circle(40%);
+}
+
+.fonte_story {
+    font-family: Segoe UI;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--preto);
+}
+
+.usuario {
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fonte_usuario {
+    font-family: Segoe UI;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.fonte_status {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B6B6B6;
+}
+
+.Fazer_Postagem {
+    /* width: 70%; */
+    height: 165px;
+    background-color: var(--fundo1);
+    border: 1px solid #F1F1F1;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img_postar {
+    width: 42px;
+    height: 42px;
+    clip-path: circle(40%);
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_text {
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: var(--fundo2); 
+    border: 1px solid #EAEAEA;
+    margin: 0;
+}
+
+.label {
+    width: 157px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #D1D1D1; 
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7D7D7D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_file {
+    border-radius: 5px;
+    background-color: var(--cinza); 
+    display: none;
+}
+
+.button_postar {
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--azul);
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--fundo1);
+    margin: 0;
+}
+
+.Fazer_Publi {
+    /* width: 70%; */
+    background-color: var(--fundo1);
+    border: 1px solid #F1F1F1;
+    /* padding: 30px 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fonte_publi {
+    font-family: Segoe UI;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.img_publicada {
+    width: 100%;
+    height: 343px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.icones {
+    width: 37%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.like {
+    width: 22px;
+    height: 22px;
+}
+
+.plane {
+    width: 25px;
+    height: 25px;
+}
+
+.conteudo_publicacoes {
+    display: flex;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.descricao_publi {
+    Font-family: Segoe UI;
+    Font-size: 13px;
+    font-weight: 400;
+    color: var(--preto);
+    margin-left: 5px;
+}
